@@ -96,7 +96,7 @@ function Contact(props) {
                         </div>
 
                         <p className="mt-4 text-sm  ">
-                            <span className="pb-10 md:pb-0 block font-medium text-gray-900 sm:mt-0 md:mt-0 flex-1 flex items-center justify-center ">
+                            <span className="pb-10 md:pb-0 font-medium text-gray-900 sm:mt-0 md:mt-0 flex-1 flex items-center justify-center ">
 
                                 <a className="ml-4 hover:text-primary-gray-20" href="https://www.instagram.com/vanessasibley_/">
                                     <span className="sr-only">
