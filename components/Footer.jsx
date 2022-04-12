@@ -27,7 +27,7 @@ export default function Footer() {
                                     Github
                                 </span>
                                 <span className="text-2xl hover:text-grotto transition-colors duration-200">
-                                    <Link className="ml-4 hover:text-primary-gray-20" href="https://github.com/vsibley">
+                                    <Link className="ml-4 hover:text-primary-gray-20" href="https://github.com/vsibley" passHref>
                                         <IoLogoGithub /></Link>
                                 </span>
 
@@ -36,7 +36,7 @@ export default function Footer() {
                                     Instagram
                                 </span>
                                 <span className="text-2xl hover:text-grotto transition-colors duration-200">
-                                    <Link href="https://www.instagram.com/vanessasibley_/">
+                                    <Link href="https://www.instagram.com/vanessasibley_/" passHref>
                                         < FaInstagram className="ml-4 hover:text-primary-gray-20" />
                                     </Link>
                                 </span>
@@ -47,7 +47,7 @@ export default function Footer() {
                                     Instagram
                                 </span>
                                 <span className="text-2xl hover:text-grotto transition-colors duration-200">
-                                    <Link href="https://www.linkedin.com/in/vanessa-sibley/">
+                                    <Link href="https://www.linkedin.com/in/vanessa-sibley/" passHref>
                                         <AiOutlineLinkedin className="ml-4 hover:text-primary-gray-20" />
                                     </Link>
                                 </span>
@@ -56,9 +56,9 @@ export default function Footer() {
                             <div className="md:hidden mt-4 mx-auto w-11 h-px rounded-full ">
                             </div>
                             <div className="mt-7 md:mt-0 flex-1 flex flex-col items-center justify-center md:items-end md:pl-5">
-                                <a href="/">
+                                <Link href="/index" passHref>
                                     <img className='w-40 object-contain cursor-pointer' src='https://lh3.googleusercontent.com/pw/AM-JKLVcGFNKKRuuUmzrlNcQRjxuAxezXkwmzM3WxMMKyQ4_Pr80cj3D86iBv2-MqyA-SNr42xjvei_FMJjPWdax8Y6XoMiw21iVd0I0HgxoUJ2DXk7MQiRug9z6U8OLXP6LCKA-pG0hia4zUmjLy8vnKDB3=w750-h207-no?authuser=0' alt="techness logo" />
-                                </a>
+                                </Link>
 
                             </div>
                         </div>
