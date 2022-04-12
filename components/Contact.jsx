@@ -87,7 +87,7 @@ function Contact(props) {
 
                     <div className="pb-10 md:pb-0 py-8 px-6 text-center lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
                         <p className="text-lg lg:text-2xl font-bold text-gray-900 ">
-                            Let's connect on Linkedin
+                            Let&apos;s connect on Linkedin
                         </p>
                         <div className=" flex items-center justify-center text-md leading-5 text-gray-900 ">
                             <span className='max-w-xs'>
