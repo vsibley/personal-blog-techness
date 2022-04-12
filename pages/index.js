@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { PostCard, PostWidget, Categories } from '../components';
+import { PostCard, PostWidget, Categories, Intro } from '../components';
 import { getPosts } from '../services';
 import { FeaturedPosts } from '../sections';
 
@@ -11,9 +11,10 @@ export default function Home({ posts }) {
       <Head>
         <title>Tech-Ness Personal Blog</title>
       </Head>
+      <Intro />
       <FeaturedPosts />
 
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+      {/* <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className='lg:col-span-8 col-span-1'>
           {posts.map((post) => (
             <PostCard post={post.node} key={post.title} />
@@ -27,7 +28,7 @@ export default function Home({ posts }) {
           </div>
 
         </div>
-      </div>
+      </div> */}
     </div> //closing div
 
   );
