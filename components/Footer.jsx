@@ -23,32 +23,35 @@ export default function Footer() {
                             <div className="md:hidden mx-auto w-11 h-px rounded-full">
                             </div>
                             <div className="sm:mt-0 md:mt-0 flex-1 flex items-center justify-center ">
-                                <a className="ml-4 hover:text-primary-gray-20" href="https://github.com/vsibley">
-                                    <span className="sr-only">
-                                        Github
-                                    </span>
-                                    <span className="text-2xl hover:text-grotto transition-colors duration-200">
-                                        <IoLogoGithub />
+                                <span className="sr-only">
+                                    Github
+                                </span>
+                                <span className="text-2xl hover:text-grotto transition-colors duration-200">
+                                    <Link className="ml-4 hover:text-primary-gray-20" href="https://github.com/vsibley">
+                                        <IoLogoGithub /></Link>
+                                </span>
 
-                                    </span>
-                                </a>
-                                <a className="ml-4 hover:text-primary-gray-20" href="https://www.instagram.com/vanessasibley_/">
-                                    <span className="sr-only">
-                                        Instagram
-                                    </span>
-                                    <span className="text-2xl hover:text-grotto transition-colors duration-200">
-                                        < FaInstagram />
-                                    </span>
-                                </a>
 
-                                <a className="ml-4 hover:text-primary-gray-20" href="https://www.linkedin.com/in/vanessa-sibley/">
-                                    <span className="sr-only">
-                                        Instagram
-                                    </span>
-                                    <span className="text-2xl hover:text-grotto transition-colors duration-200">
-                                        <AiOutlineLinkedin />
-                                    </span>
-                                </a>
+                                <span className="sr-only">
+                                    Instagram
+                                </span>
+                                <span className="text-2xl hover:text-grotto transition-colors duration-200">
+                                    <Link href="https://www.instagram.com/vanessasibley_/">
+                                        < FaInstagram className="ml-4 hover:text-primary-gray-20" />
+                                    </Link>
+                                </span>
+
+
+
+                                <span className="sr-only">
+                                    Instagram
+                                </span>
+                                <span className="text-2xl hover:text-grotto transition-colors duration-200">
+                                    <Link href="https://www.linkedin.com/in/vanessa-sibley/">
+                                        <AiOutlineLinkedin className="ml-4 hover:text-primary-gray-20" />
+                                    </Link>
+                                </span>
+
                             </div>
                             <div className="md:hidden mt-4 mx-auto w-11 h-px rounded-full ">
                             </div>

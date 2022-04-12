@@ -13,7 +13,7 @@ export default function Nav() {
 
     return (
         <div className="flex items-center justify-between top-0 py-5  border-b max-w-7xl mx-auto">
-            <Link href="/">
+            <Link href="/" passHref>
                 <Image unoptimized
                     height="50px"
                     width="185px" className='object-contain cursor-pointer' src='https://lh3.googleusercontent.com/pw/AM-JKLVcGFNKKRuuUmzrlNcQRjxuAxezXkwmzM3WxMMKyQ4_Pr80cj3D86iBv2-MqyA-SNr42xjvei_FMJjPWdax8Y6XoMiw21iVd0I0HgxoUJ2DXk7MQiRug9z6U8OLXP6LCKA-pG0hia4zUmjLy8vnKDB3=w750-h207-no?authuser=0' alt="techness logo" />

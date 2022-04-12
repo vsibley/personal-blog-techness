@@ -11,7 +11,7 @@ const PostCard = ({ post }) => {
         <div className='bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8 group'>
             <div className='relative overflow-hidden shadow-md pb-80 mb-6 group-hover:scale-105 transition-transform  duration-200 ease-in-out'>
                 < div className='cursor-pointer'>
-                    <Link href={`/post/${post.slug}`}>
+                    <Link href={`/post/${post.slug}`} passHref>
 
                         <Image
                             unoptimized
@@ -50,7 +50,7 @@ const PostCard = ({ post }) => {
             </div>
             <p className='text-center text-md text-gray-700 font-normal px-4 lg:px-20 mb-8'>{post.excerpt}</p>
             <div className="text-center">
-                <Link href={`/post/${post.slug}`}>
+                <Link href={`/post/${post.slug}`} passHref>
                     <span className='transition 400 transform hover:-translate-y-1 inline-block bg-logoblue font-medium text-sm py-2 px-3 rounded-md cursor-pointer'>
                         Read More...
                     </span>

@@ -8,7 +8,7 @@ export default function Intro() {
                 <div className=''>
                     <h2 className='text-3xl max-w-xl font-pop font-light pb-1'> <span className='font-semibold tracking-wide'> Welcome Friends, </span><br /> thanks for joining me. </h2>
 
-                    <h2><span className='font-bold text-logoblue '>Tech-Ness</span> is my personal corner of the internet where I'll be documenting my journey into Software Development. </h2>
+                    <h2><span className='font-bold text-logoblue '>Tech-Ness</span> is my personal corner of the internet where I&apos;ll be documenting my journey into Software Development. </h2>
                 </div>
 
             </div>
