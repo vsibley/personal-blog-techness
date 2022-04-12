@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 
 const Result = () => {
     return (
-        <h3 className='pt-3 font-bold sm:px-0 text-lg text-center text-logoblue drop-shadow-xl '>Your message has been sent! <br />Thanks for reaching out, I'll get back to you in 2-4 bussines days.</h3>
+        <h3 className='pt-3 font-bold sm:px-0 text-lg text-center text-logoblue drop-shadow-xl '>Your message has been sent! <br />Thanks for reaching out, I&apos;ll get back to you in 2-4 bussines days.</h3>
     )
 }
 
@@ -44,7 +44,7 @@ function Contact(props) {
                         <form className="min-w-md p-10 m-auto " onSubmit={sendEmail}>
 
                             <h3 className="text-2xl md:text-3xl leading-8 font-extrabold text-gray-900 sm:leading-9 sm: pb-2 text-center">
-                                Reach out, I'd love to hear from you!
+                                Reach out, I&apos;d love to hear from you!
                             </h3>
 
 

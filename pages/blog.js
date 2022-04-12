@@ -7,7 +7,7 @@ import { FeaturedPosts } from '../sections';
 
 export default function blog({ posts }) {
     return (
-        <div class="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto">
             <div className='flex min-h-full pb-5'>
                 <div>
 
