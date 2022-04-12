@@ -9,9 +9,9 @@ export default function Footer() {
     return (
         <>
 
-            <div className="max-w-7xl mx-auto bg-white">
+            <div className="max-w-7xl mx-auto ">
 
-                <footer className="px-3 py-8 border-t  text-2 text-gray-500transition-colors duration-200">
+                <footer className="px-3 py-8 border-t border-gray-800  text-2 text-gray-500transition-colors duration-200">
                     <div className="flex flex-col">
                         <div className="md:hidden sm:mt-2 md:mt-7 mx-auto w-11 h-px rounded-full">
                         </div>

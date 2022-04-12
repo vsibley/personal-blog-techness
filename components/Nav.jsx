@@ -12,7 +12,7 @@ export default function Nav() {
     const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
 
     return (
-        <div className="flex items-center justify-between top-0 py-5  border-b max-w-7xl mx-auto">
+        <div className="flex items-center justify-between top-0 py-5  border-b border-gray-800 max-w-7xl mx-auto">
             <Link href="/" passHref>
                 <Image unoptimized
                     height="50px"

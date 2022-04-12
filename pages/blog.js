@@ -33,8 +33,8 @@ export default function blog({ posts }) {
 
                         <div className="hidden lg:inline col-span-4 ">
                             <div className='lg:sticky relative top-8'>
-                                <PostWidget />
                                 <Subscribe />
+                                <PostWidget />
                                 <Categories />
                             </div>
                         </div>

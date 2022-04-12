@@ -8,8 +8,8 @@ export default function About() {
         <>
             <div className="max-w-7xl mx-auto">
 
-                <div className="overflow-hidden lg:flex lg:items-center pl-2">
-                    <div className="max-w-lg py-12 px-4 sm:px-6 lg:py-7">
+                <div className="overflow-hidden lg:flex lg:items-center">
+                    <div className="max-w-lg py-12 lg:pt-0 px-4 sm:px-6 ">
                         <h2 className="text-3xl font-extrabold sm:text-4xl">
                             <span className="block">
                                 Hey, I&apos; m Vanessa.</span>
@@ -23,7 +23,7 @@ export default function About() {
                         <p className="text-sm mt-4 text-gray-900">I enrolled in an online coding bootcamp so I should be job ready when I graduate right? <span className='italic'>Wrong my friend.</span> Based on my own personal experince and the feedback I&apos;ve heard received from others there&apos;s a huge gap of guidence/knowledge going from a coding bootcamp to the professional field. My hopes with <span className='text-logoblue font-bold'>Tech-Ness</span> is to bridge a portion of that gap. </p>
 
 
-                        <ul className="pt-7 list-disc pl-3">
+                        <ul className="pl-3 sm:pl-0 pt-7 list-disc">
                             <p className="text-lg  font-semibold leading-6 text-gray-900">
                                 Still not sure this is the  right place for you? Fair enough. Here&apos;s a few of the things I&apos;ll be sharing about 👇🏽
                             </p>
