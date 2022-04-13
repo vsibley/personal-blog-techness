@@ -15,7 +15,8 @@ const PostDetails = ({ post }) => {
         <div className="container mx-auto px-3 md:px-10 py-5 mb-8">
             <Nav />
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 pt-5">
-                <div className="col-span-1 lg:col-span-12">
+
+                <div className="col-span-1 lg:col-span-12 pt-[4rem] md:pt-0">
                     <PostDetail post={post} />
                     {/* <Author author={post.author} /> */}
                     <CommentsForm slug={post.slug} />

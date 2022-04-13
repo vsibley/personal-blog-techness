@@ -10,18 +10,18 @@ export default function blog({ posts }) {
     return (
         <div className="max-w-7xl mx-auto">
             <Nav />
-            <div className="header mt-5 md:mt-[4rem] px-5 flex items-end justify-between mb-5 md:mb-10 ">
+            <div className="header mt-[3rem] md:mt-[4rem] px-5 flex items-end justify-between mb-3 md:mb-10 ">
                 <div className="title">
                     <p className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
                         Lastest articles
                     </p>
-                    <p className="text-xl md:text-2xl font-light text-gray-600">
+                    <p className="pt-3 md:pt-0 text-xl md:text-2xl font-light text-gray-600">
                         Looking for a specific topic? Send me a  <span className='text-logoblue hover:italic hover:text-gray-800 hover:underline '><Link href="/contact">message!</Link></span>
                     </p>
 
                 </div>
             </div>
-            <div className='flex min-h-full pb-5'>
+            <div className='flex min-h-full pt-[3rem] md:pt-0 pb-5'>
                 <div>
 
                     <div className='grid grid-cols-1 lg:grid-cols-12 gap-5 md:gap-6 p-2 lg:p-6'>
@@ -40,7 +40,7 @@ export default function blog({ posts }) {
                             </div>
                         </div>
                         <div className="">
-                            <div className='sm:sticky relative top-8 md:hidden'>
+                            <div className='pb-9 sm:sticky relative top-8 md:hidden'>
                                 <Subscribe />
                             </div>
                         </div>
