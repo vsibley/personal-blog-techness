@@ -33,7 +33,7 @@ const Subscribe = (props) => {
 
 
 
-            <div className="rounded-lg p-2 pt-8 mb-5">
+            <div className="rounded-lg p-2 pt-8 mb-5 px-5">
                 <h2 className="text-xl md:text-2xl leading-8 font-extrabold tracking-tight sm:leading-9">
                     Want to know when I publish a new article?
                 </h2>
@@ -58,9 +58,9 @@ const Subscribe = (props) => {
                                 </div>
 
                                 <div className="col-span-2 text-right">
-                                    <input type="submit" value='Subscribe' className="py-2 px-4  bg-logoblue hover:bg-transparent hover:text-black hover:border hover:border-black  text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md rounded-lg " />
+                                    <input type="submit" value='Subscribe' className="py-2 px-4 bg-logoblue hover:bg-transparent hover:text-black hover:border hover:border-gray-800  text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md rounded-lg focus:outline-none focus:ring-2 focus:ring-grotto focus:border-transparent" />
                                 </div>
-                                <div className="col-span-2 text-right text-xl font-semibold">
+                                <div className="text-center col-span-2 text-xl font-semibold">
                                     {result ? <Result /> : null}
                                 </div>
                             </div>

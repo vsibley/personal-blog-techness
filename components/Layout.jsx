@@ -4,10 +4,10 @@ import { Header, Nav, Footer } from './';
 const Layout = ({ children }) => {
     return (
         <>
-            <Nav />
+            {/* <Nav /> */}
             {/* <Header /> */}
             {children}
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

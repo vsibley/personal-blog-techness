@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { PostCard, PostWidget, Categories, Intro, Subscribe } from '../components';
+import { PostCard, PostWidget, Categories, Intro, Subscribe, Nav, Footer } from '../components';
 import { getPosts } from '../services';
 import { FeaturedPosts } from '../sections';
 import Link from 'next/link';
@@ -9,6 +9,7 @@ import Link from 'next/link';
 export default function blog({ posts }) {
     return (
         <div className="max-w-7xl mx-auto">
+            <Nav />
             <div className="header mt-5 md:mt-[4rem] px-5 flex items-end justify-between mb-5 md:mb-10 ">
                 <div className="title">
                     <p className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
@@ -47,6 +48,7 @@ export default function blog({ posts }) {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div > //closing div
 
 
