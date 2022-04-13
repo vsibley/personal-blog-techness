@@ -33,7 +33,7 @@ const Subscribe = (props) => {
 
 
 
-            <div className="rounded-lg p-2 pt-8 bg-white shadow-lg mb-5">
+            <div className="rounded-lg p-2 pt-8 mb-5">
                 <h2 className="text-xl md:text-2xl leading-8 font-extrabold tracking-tight sm:leading-9">
                     Want to know when I publish a new article?
                 </h2>

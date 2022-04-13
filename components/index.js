@@ -14,3 +14,4 @@ export { default as Nav } from './Nav';
 export { default as Contact } from './Contact';
 export { default as Footer } from './Footer';
 export { default as Subscribe } from './Subscribe';
+export { default as Sub } from './Sub';

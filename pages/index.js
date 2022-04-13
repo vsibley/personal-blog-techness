@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { PostCard, PostWidget, Categories, Intro, Subscribe } from '../components';
+import { PostCard, PostWidget, Categories, Intro, Sub } from '../components';
 import { getPosts } from '../services';
 import { FeaturedPosts } from '../sections';
 
@@ -18,7 +18,7 @@ export default function Home({ posts }) {
           {/* {posts.map((post) => (
             <PostCard post={post.node} key={post.title} />
           ))} */}
-          <Subscribe />
+          <Sub />
           {/* <FeaturedPosts /> */}
 
         </div>
