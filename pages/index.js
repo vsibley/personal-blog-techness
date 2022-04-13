@@ -2,14 +2,31 @@ import Head from 'next/head'
 import { PostCard, PostWidget, Categories, Intro, Sub, Nav, Footer } from '../components';
 import { getPosts } from '../services';
 import { FeaturedPosts } from '../sections';
+import Script from 'next/script';
 
 
 
 export default function Home({ posts }) {
   return (
     <div className='container max-w-7xl mx-auto'>
+
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-22SJJZ91C2"
+        strategy="afterInteractive" />
+
+      <Script>
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-22SJJZ91C2');
+        `}
+      </Script>
+
+
       <Head>
         <title>Tech-Ness Personal Blog</title>
+
       </Head>
       <Nav />
       <div className='pt-5'>
@@ -35,7 +52,7 @@ export default function Home({ posts }) {
 
         </div> */}
       </div>
-    </div> //closing div
+    </div > //closing div
 
   );
 }

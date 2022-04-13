@@ -1,7 +1,7 @@
 import React from 'react'
 import { getPosts, getPostDetails } from '../../services'
 import { useRouter } from 'next/router'
-import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader, Subscribe } from '../../components'
+import { PostDetail, Categories, PostWidget, Author, Comments, CommentsForm, Loader, Subscribe, Nav } from '../../components'
 
 const PostDetails = ({ post }) => {
     const router = useRouter();
@@ -13,8 +13,9 @@ const PostDetails = ({ post }) => {
     return (
 
         <div className="container mx-auto px-3 md:px-10 py-5 mb-8">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
-                <div className="col-span-1 lg:col-span-8">
+            <Nav />
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 pt-5">
+                <div className="col-span-1 lg:col-span-12">
                     <PostDetail post={post} />
                     {/* <Author author={post.author} /> */}
                     <CommentsForm slug={post.slug} />
@@ -22,12 +23,12 @@ const PostDetails = ({ post }) => {
 
                 </div>
 
-                <div className="col-span-1 lg:col-span-4">
+                {/* <div className="col-span-1 lg:col-span-4">
                     <div className="relative lg:sticky top-8">
                         <PostWidget slug={post.slug} categories={post.categories.map((category) => category.slug)} />
                         <Subscribe />
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
